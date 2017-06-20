@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="weather-icons.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <h1 id="location"></h1>
+            <h2 id="currentDay">Today: </h2>            
+            <i id="icon" ></i>
+            <h3 id="currentTemp">Temperature: </h3> 
+            <h3 id="currentPressure"> Pressure
+                <i class="wi wi-barometer" ></i> 
+            </h3>    
+            <button type="button" class="btn btn-default" id="previousDay">Previous day</button>
+            <button type="button" class="btn btn-default disabled" id="nextDay">Next day</button>             
+        </div>        
+    </div>
+ </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="work.js"></script>
+</body>

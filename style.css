@@ -1,0 +1,21 @@
+* {
+  text-align: center;
+}
+
+#icon {
+  font-size: 40px;
+}
+
+body {
+  background: url('http://u01.appmifile.com/images/2016/06/19/d2f383a2-2e76-44b8-acab-283771f7be80.jpg');
+}
+
+.row {
+  background-color: white;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.7;
+  margin: 10px 120px;
+  margin-top: 50px;
+  padding: 5px;
+}
